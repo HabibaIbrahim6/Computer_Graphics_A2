@@ -49,7 +49,7 @@ void DrawCurve(HDC hdc, double x1, double y1, double x2, double y2, double x3, d
     }
     
     
-    for(int t = 0; t <= 1 ; t=t+0.1){
+    for(double t = 0; t <= 1 ; t=t+0.1){
         double V[4] = {1, t, t*t, t*t*t};
         double X[2] = {0, 0};
         
